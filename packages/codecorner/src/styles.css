@@ -1,0 +1,138 @@
+/* Classic 2006 Website Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 12px;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to bottom, #4a6fa5 0%, #2e4e7e 100%);
+    color: white;
+    padding: 20px;
+    border-bottom: 3px solid #1a3a5a;
+}
+
+header h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 11px;
+    font-style: italic;
+}
+
+.container {
+    display: flex;
+    max-width: 960px;
+    margin: 20px auto;
+    gap: 15px;
+}
+
+aside {
+    background-color: #e8e8e8;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+.sidebar-left {
+    width: 180px;
+}
+
+.sidebar-right {
+    width: 180px;
+}
+
+aside section {
+    margin-bottom: 20px;
+}
+
+aside h3 {
+    font-size: 13px;
+    color: #2e4e7e;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #4a6fa5;
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside li {
+    margin-bottom: 6px;
+}
+
+aside a {
+    color: #2e4e7e;
+    text-decoration: none;
+}
+
+aside a:hover {
+    color: #4a6fa5;
+    text-decoration: underline;
+}
+
+main {
+    flex: 1;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+article h2 {
+    font-size: 18px;
+    color: #2e4e7e;
+    margin-bottom: 8px;
+}
+
+article h3 {
+    font-size: 14px;
+    color: #333;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+article p {
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+article a {
+    color: #2e4e7e;
+    font-weight: bold;
+}
+
+article a:hover {
+    color: #4a6fa5;
+}
+
+pre {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    padding: 10px;
+    overflow-x: auto;
+    margin: 10px 0;
+}
+
+code {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 11px;
+}
+
+footer {
+    background-color: #333;
+    color: #ccc;
+    text-align: center;
+    padding: 15px;
+    font-size: 11px;
+    margin-top: 20px;
+}

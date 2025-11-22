@@ -1,0 +1,15 @@
+{
+  "name": "@widgets/codecorner",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "serve .",
+    "build": "cp ../pie-angular/dist/pie-angular/browser/main.js src/widgets/pie-angular.js"
+  },
+  "keywords": [],
+  "dependencies": {
+    "@widgets/pie-angular": "workspace:*"
+  },
+  "devDependencies": {
+    "serve": "^14.2.5"
+  }
+}
