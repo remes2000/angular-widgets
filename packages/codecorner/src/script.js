@@ -1,4 +1,5 @@
-import { buildWidget } from './widgets/pie-angular.js';
+import { buildWidget as buildWidgetAngular } from './widgets/pie-angular.js';
+import { buildWidget as buildWidgetReact } from './widgets/pie-react.js';
 
-const rightSidebar = document.querySelector('.sidebar-right section');
-buildWidget(rightSidebar);
+buildWidgetAngular(document.querySelector('.angular-pie'));
+buildWidgetReact(document.querySelector('.react-pie'));

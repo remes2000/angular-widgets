@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "scripts": {
     "start": "serve .",
-    "build": "cp ../pie-angular/dist/pie-angular/browser/main.js src/widgets/pie-angular.js"
+    "build": "cp ../pie-angular/dist/pie-angular/browser/main.js src/widgets/pie-angular.js && cp ../pie-react/dist/main.js src/widgets/pie-react.js"
   },
   "keywords": [],
   "dependencies": {
-    "@widgets/pie-angular": "workspace:*"
+    "@widgets/pie-angular": "workspace:*",
+    "@widgets/pie-react": "workspace:*"
   },
   "devDependencies": {
     "serve": "^14.2.5"
