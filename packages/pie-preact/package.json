@@ -1,5 +1,5 @@
 {
-  "name": "@widgets/pie-react",
+  "name": "@widgets/pie-preact",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -7,8 +7,7 @@
     "build": "node esbuild.config.mjs"
   },
   "dependencies": {
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "preact": "^10.27.2"
   },
   "devDependencies": {
     "esbuild": "^0.27.0"
