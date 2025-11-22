@@ -10,7 +10,7 @@ function App() {
   )
 }
 
-export function buildWidget(host: HTMLElement = document.body) {
+export function buildWidget(host = document.body) {
   const root = createRoot(host);
   root.render(<App />);
 }
